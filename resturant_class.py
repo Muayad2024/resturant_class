@@ -18,10 +18,11 @@ class IceCreamStand(Resturant):
         self.flavors = ['Strawbery', 'Vanilla', 'Mango']
     def display_flavores(self):
         print(f'The avilable flavores: {self.flavors}')
-my_ice_cream = IceCreamStand('Mango Ice cream', 'Ice Cream')
+my_ice_cream = IceCreamStand('Ice Cream Stand', 'Ice Cream')
 my_ice_cream.display_flavores()
-resturant = Resturant('Pizza Hut', 'Italian Pizza')
-"""print(f'The resturant name is {resturant.name}')
+my_ice_cream.describe_restaurant()
+"""resturant = Resturant('Pizza Hut', 'Italian Pizza')
+print(f'The resturant name is {resturant.name}')
 print(f'The resturant cuisine type is {resturant.cuisine_type}')
 
 resturant.describe_restaurant()
